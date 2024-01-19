@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "gpv-wrapper",
-    "slug": "gpv-wrapper",
+    "name": "Github Profile Viewer",
+    "slug": "github-profile-viewer",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.sametcn99.githubprofileviewer"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "29570149-4958-4ba3-950d-cf1c0fbd8cbc"
+      }
+    },
+    "owner": "sametcn99"
   }
 }
